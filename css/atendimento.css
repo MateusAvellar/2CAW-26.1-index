@@ -1,0 +1,23 @@
+body
+{
+    background-color:  #D5BA98 ;
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #a89278;
+}
+
+a{
+    color: #0066cc;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: translateY(-3px);
+}

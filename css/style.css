@@ -1,0 +1,57 @@
+/* index.html*/
+body
+{
+    background-color:  #D5BA98 ;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #4d4949;
+    border-bottom: 2px solid #a89278;
+    padding-bottom: 5px;
+
+}
+
+h1
+{
+    color: #060606;
+    font-size: 36px;
+}
+h2
+{
+    color: #4d4949;
+    border-bottom: 2px solid #a89278;
+    padding-bottom: 5px;
+    display: inline-block
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #a89278;
+    
+}
+
+a{
+    color: #0066cc;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: translateY(-3px);
+}
+
+
+ul{list-style-type: square;}/*as bolinhas das listas viram quadrados*/
+
+img{border-radius: 10px;} 
+/* deixa a img com borda arredondada, não serve pois não tem fundo*/
+
+
