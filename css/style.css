@@ -52,6 +52,31 @@ a:hover{
 ul{list-style-type: square;}/*as bolinhas das listas viram quadrados*/
 
 img{border-radius: 10px;} 
+
 /* deixa a img com borda arredondada, não serve pois não tem fundo*/
 
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    text-align: left;
+}
 
