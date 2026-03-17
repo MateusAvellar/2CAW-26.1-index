@@ -1,33 +1,23 @@
-body {
+body{
     background-color: #D5BA98;
+    margin: 0; /* 👈 remove espaço externo */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
 }
 
-/* Container principal */
-.container {
-    background-color: #e6ccb2;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    width: 350px;
-}
-
-/* Título principal */
 h1 {
-    font-size: 60px;
+    font-size: 45px;
     color: #885719;
     border-bottom: 2px solid #a89278;
     padding-bottom: 5px;
     margin-bottom: 20px;
     display: inline-block;
     margin-right: 60px;
+    margin-top: auto;
 }
 
-/* Subtítulos whats e insta */
 h2 {
     color: #4d4949;
     font-size: 30px;
@@ -38,29 +28,43 @@ h2 {
     width: fit-content; /* 👈 linha só no tamanho do texto */
 
 }
-.sem-linha {
-    border-bottom: none;
-}
-
-
-/* Lista */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-    border: none;
-}
-
-/* Links */
-a {
-    color: #0066cc;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.2s;
-    font-size: 20px;
-}
-
 a:hover {
     transform: translateY(-3px);
     color: #a89278;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    border: none;
+    
+}
+a:hover {
+    transform: translateY(-3px);
+    color: #c99f6e;
+}
+.container {
+    background-color: #e6ccb2;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 350px;
+}
