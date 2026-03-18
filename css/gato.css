@@ -1,10 +1,11 @@
-body{
-    background-color: #D5BA98;
-    margin: 0; /* 👈 remove espaço externo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body
+{
+    background-color:  #D5BA98 ;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -32,7 +33,7 @@ a:hover {
     transform: translateY(-3px);
     color: #a89278;
 }
-ul{
+Ul{
     list-style-type: square;
     padding-left: 20px;
     border: none;
